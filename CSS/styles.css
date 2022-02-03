@@ -266,20 +266,28 @@ button:hover {
 .footerNavItems {
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
     position: relative;
     margin-top: 1rem;
-    /* justify-content: space-between; */
-    margin-left: 200px;
 }
 
 .footerLHS {
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: row;
+    position: relative;
+    margin-top: 1rem;
+    /* justify-content: space-between; */
+    margin-left: 200px;
+
+    /* flex-direction: flex-start; */
 }
 .footerRHS {
-    display: flex;
-    position: relative;
-    margin-right: 3rem;
+    /* display: flex;
+    flex-direction: row-reverse;
+    position: relative; */
+    /* margin-top: 1rem; */
+    /* justify-content: space-between; */
+    margin-right: 200px;
 }
 
 
@@ -310,9 +318,7 @@ button:hover {
 .accordion {
     display: flex;
     flex-direction: column;
-    
     width: 70vw;
-    
     margin-left: 15vw;
 }
 
